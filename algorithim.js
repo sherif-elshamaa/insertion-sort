@@ -2,7 +2,7 @@ array = [6,8,7,11,156,85,69,77];
 
 function insertionSort(array){
   var current;
-  var previous;
+  var previous; //index 
   for(var i = 1; i < array.length; i++){
     current = array[i];
     previous = i-1;
@@ -18,4 +18,3 @@ function insertionSort(array){
 
 insertionSort(array);
 
-insertion-sort
